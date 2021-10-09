@@ -6,11 +6,10 @@ const Navbar = ({ currentPage, handlePageChange }) => {
     return (
         <div className="navbar">
             <div class="topnav">
-                <p>this will be the navbar</p>
-                {/* <a href="#resume" onClick={() => handlePageChange('CV')} className={currentPage === 'CV' ? 'nav-link active' : 'nav-link'}>My CV</a>
-                <a href="#contact" onClick={() => handlePageChange('Contact Me')} className={currentPage === 'Contact Me' ? 'nav-link active' : 'nav-link'}>Contact Me</a>
-                <a href="#portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
-                <a href="#aboutme" onClick={() => handlePageChange('About Me')} className={currentPage === 'About Me' ? 'nav-link active' : 'nav-link'}>About Me</a> */}
+                <a href="" onClick={() => handlePageChange('')} className={currentPage === 'Link1' ? 'nav-link active' : 'nav-link'}>link 1</a>
+                <a href="" onClick={() => handlePageChange('')} className={currentPage === 'Link2' ? 'nav-link active' : 'nav-link'}>link 2</a>
+                <a href="" onClick={() => handlePageChange('')} className={currentPage === 'Link3' ? 'nav-link active' : 'nav-link'}>link 3</a>
+                <a href="" onClick={() => handlePageChange('')} className={currentPage === 'Link4' ? 'nav-link active' : 'nav-link'}>link 4</a>
             </div>
         </div>
     );

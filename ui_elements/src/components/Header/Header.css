@@ -3,3 +3,7 @@
     background: rgb(12, 12, 12);
     color: rgb(250, 186, 44);
 }
+
+.header {
+    padding-bottom: 15px;
+}

@@ -1,5 +1,9 @@
 .navbar {
     text-align: center;
     background: rgb(12, 12, 12);
+    padding-bottom: 15px;
+}
+
+.topnav a {
     color: rgb(250, 186, 44);
 }

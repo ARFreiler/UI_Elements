@@ -5,6 +5,8 @@ import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import UiElements from './UiElements/UiElements';
 
+import './Content.css';
+
 export default function Content() {
     const [currentPage, setCurrentPage] = useState('UI Elements');
 
