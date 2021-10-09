@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import './styles/Navbar.css';
+import '../Navbar/Navbar.css';
 
 const Navbar = ({ currentPage, handlePageChange }) => {
     return (
