@@ -4,6 +4,7 @@ import Navbar from './Navbar/Navbar';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import UiElements from './UiElements/UiElements';
+import Widgets from './WidgetElements/Widgets';
 
 import './Content.css';
 
@@ -14,8 +15,8 @@ export default function Content() {
 
         return <UiElements />;
 
-        // if (currentPage === 'Portfolio') {
-        //     return <Portfolio />;
+        // if (currentPage === 'Widgets') {
+        //     return <Widgets />;
         // }
         // if (currentPage === 'CV') {
         //     return <CV />;
