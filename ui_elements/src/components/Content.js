@@ -26,10 +26,13 @@ export default function Content() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div class="container">
             <Header />
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <div className="content">
+                {/* <UiElements /> */}
+            </div>
             <Footer />
         </div>
     )

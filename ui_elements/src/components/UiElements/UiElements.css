@@ -1,3 +1,8 @@
+.uielements {
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
 .uielements p {
     color: red;
 }

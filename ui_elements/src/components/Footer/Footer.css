@@ -1,4 +1,7 @@
 .footer {
+    position: absolute;
+    width: 100%;
+    padding: 20px 0;
     text-align: center;
     background: rgb(12, 12, 12);
     color: rgb(250, 186, 44);
