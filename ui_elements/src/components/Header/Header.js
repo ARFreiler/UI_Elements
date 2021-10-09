@@ -1,15 +1,15 @@
 import React from 'react';
 // import '../styles/Header.css';
 import '../Navbar';
-import Navbar from '../Navbar';
+
 
 const Header = () => {
     return (
         <div className="body">
             <div className="container">
                 <div className="header">
-                    <h1 className="name">Ashleigh Freiler</h1>
-                    <p className="tag">An evolving human seeking knowledge in all things great and small.</p>
+                    <h1 className="title">UI Elements</h1>
+                    <p className="tag">A collection of UI elements for webpage design.</p>
 
                 </div>
 
