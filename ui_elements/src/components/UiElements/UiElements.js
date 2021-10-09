@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import '../styles/UiElements.css';
+import '../UiElements/UiElements.css';
 
 const UiElements = () => {
     return (

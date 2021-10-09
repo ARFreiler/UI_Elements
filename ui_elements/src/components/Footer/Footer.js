@@ -4,7 +4,7 @@ import React from 'react';
 // import { FaGithub } from "react-icons/fa"
 // import { FaLinkedin } from "react-icons/fa"
 
-// import '../styles/Footer.css';
+import '../Footer/Footer.css';
 
 const Footer = () => {
     return (
