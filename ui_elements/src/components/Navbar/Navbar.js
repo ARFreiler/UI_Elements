@@ -21,6 +21,11 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                         Widgets
                     </button>
                 </Link>
+                <Link to="/images">
+                    <button variant="outlined">
+                        Images
+                    </button>
+                </Link>
             </div>
         </div>
     );

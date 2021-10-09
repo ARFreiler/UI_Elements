@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Navbar from './Navbar/Navbar';
-import Header from './Header/Header';
-import Footer from './Footer/Footer';
-import UiElements from './UiElements/UiElements';
+// import Navbar from './Navbar/Navbar';
+// import Header from './Header/Header';
+// import Footer from './Footer/Footer';
+// import UiElements from './UiElements/UiElements';
 import Homepage from './pages/Homepage/Homepage';
 import Widgets from './pages/WidgetElements/Widgets';
+import Images from './pages/ImageElements/Images';
 
 import './Content.css';
 
@@ -15,6 +16,7 @@ const Content = () => {
         <Switch> {/* The Switch decides which component to show based on the current URL.*/}
             <Route exact path='/' component={Homepage}></Route>
             <Route exact path='/widgets' component={Widgets}></Route>
+            <Route exact path='/images' component={Images}></Route>
         </Switch>
     );
 };

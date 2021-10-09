@@ -8,7 +8,6 @@ const Widgets = () => {
             <div className="widgets">
                 <div className="widget-one">
                     <p>widgets</p>
-
                 </div>
             </div>
         </div>
