@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 
+import Navbar from './Navbar';
+import Header from './pages/Header';
+import Footer from './pages/Footer';
+import UiElements from './pages/UiElements';
+
 export default function Content() {
     const [currentPage, setCurrentPage] = useState('UI Elements');
 
