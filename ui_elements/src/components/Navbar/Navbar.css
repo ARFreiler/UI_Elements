@@ -1,3 +1,5 @@
-.topnav p {
-    color: chartreuse;
+.navbar {
+    text-align: center;
+    background: rgb(12, 12, 12);
+    color: rgb(250, 186, 44);
 }
