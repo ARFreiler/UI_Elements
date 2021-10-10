@@ -13,7 +13,7 @@ import './Content.css';
 
 const Content = () => {
     return (
-        <Switch> {/* The Switch decides which component to show based on the current URL.*/}
+        <Switch>
             <Route exact path='/' component={Homepage}></Route>
             <Route exact path='/widgets' component={Widgets}></Route>
             <Route exact path='/images' component={Images}></Route>

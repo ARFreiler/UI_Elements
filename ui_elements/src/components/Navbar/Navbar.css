@@ -4,6 +4,16 @@
     padding-bottom: 15px;
 }
 
-.topnav a {
-    color: rgb(250, 186, 44);
+.nav-button {
+    background: rgb(250, 186, 44);
+    color: rgb(12, 12, 12);
+    padding: 3px;
+    margin: 0 3px 0 3px;
+    border: 1px solid rgb(250, 186, 44);
+    border-radius: 5px;
+}
+
+.nav-button:hover {
+    background: rgb(21, 21, 21);
+    cursor: pointer;
 }

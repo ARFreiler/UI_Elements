@@ -1,8 +1,6 @@
 import React from 'react';
 import '../Header/Header.css';
 import '../Navbar/Navbar';
-// import Navbar from '../Navbar/Navbar';
-
 
 const Header = () => {
     return (

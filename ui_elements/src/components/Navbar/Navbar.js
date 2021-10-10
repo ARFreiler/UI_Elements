@@ -12,17 +12,17 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                 <a href="" onClick={() => handlePageChange('')} className={currentPage === 'Link3' ? 'nav-link active' : 'nav-link'}>link 3</a>
                 <a href="" onClick={() => handlePageChange('')} className={currentPage === 'Link4' ? 'nav-link active' : 'nav-link'}>link 4</a> */}
                 <Link to="/">
-                    <button variant="outlined">
+                    <button class="nav-button" variant="outlined">
                         Home
                     </button>
                 </Link>
                 <Link to="/widgets">
-                    <button variant="outlined">
+                    <button class="nav-button" variant="outlined">
                         Widgets
                     </button>
                 </Link>
                 <Link to="/images">
-                    <button variant="outlined">
+                    <button class="nav-button" variant="outlined">
                         Images
                     </button>
                 </Link>
