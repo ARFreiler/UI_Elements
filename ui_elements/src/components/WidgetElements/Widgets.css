@@ -1,4 +1,16 @@
+.widgets-container {
+    min-height: 100vh;
+    background: rgb(21, 21, 21);
+}
+
 .widgets-text {
-    background: rgb(12, 12, 12);
+    background: rgb(21, 21, 21);
     color: rgb(250, 186, 44);
+}
+
+.widgets-panels {
+    background: rgb(12, 12, 12);
+    border: 2px solid rgb(250, 186, 44);
+    border-radius: 7.5px;
+    height: 200px;
 }
