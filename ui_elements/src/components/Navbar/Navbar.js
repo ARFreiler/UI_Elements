@@ -21,8 +21,8 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                         <nav>
                             <StyledLink to="/scenes/home-scene/home">Home</StyledLink>
                             <StyledLink to="/scenes/about-scene/about">Widgets</StyledLink>
-                            <StyledLink to="/scenes/work/work">My Work</StyledLink>
-                            <StyledLink to="/scenes/contact-scene/contact">Contact</StyledLink>
+                            <StyledLink to="/scenes/work/work">Graphics</StyledLink>
+                            <StyledLink to="/scenes/contact-scene/contact">Components</StyledLink>
                         </nav>
                         <Switch>
                             <Route exact path="/scenes/home-scene/home">
