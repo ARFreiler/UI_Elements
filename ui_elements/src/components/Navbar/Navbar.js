@@ -9,17 +9,18 @@ import {
 import { StyledLink } from "../../styles";
 
 import '../Navbar/Navbar.css';
+import Widgets from '../WidgetElements/Widgets';
 
 const Navbar = ({ currentPage, handlePageChange }) => {
     return (
         <div className="navbar">
             <div class="topnav">
                 <div className="nav-content">
-                    <h1>this is navbar</h1>
+                    {/* <h1>this is navbar</h1> */}
                     <Router>
                         <nav>
                             <StyledLink to="/scenes/home-scene/home">Home</StyledLink>
-                            <StyledLink to="/scenes/about-scene/about">About Me</StyledLink>
+                            <StyledLink to="/scenes/about-scene/about">Widgets</StyledLink>
                             <StyledLink to="/scenes/work/work">My Work</StyledLink>
                             <StyledLink to="/scenes/contact-scene/contact">Contact</StyledLink>
                         </nav>
@@ -28,7 +29,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                                 {/* <Home /> */}
                             </Route>,
           <Route exact path="/scenes/about-scene/about">
-                                {/* <About /> */}
+                                <Widgets />
                             </Route>,
           <Route exact path="/scenes/work-scene/work">
                                 {/* <Work /> */}

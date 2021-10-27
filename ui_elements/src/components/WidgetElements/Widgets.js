@@ -1,15 +1,15 @@
 import React from 'react';
-// import HiddenSearch from '../HiddenSearch/HiddenSearch';
+import HiddenSearch from '../HiddenSearch/HiddenSearch';
 
 import './Widgets.css';
 
 const Widgets = () => {
     return (
-        <div className="container">
-            <div className="widgets">
+        <div className="widgets-container">
+            <h2 className="widgets-text">Random Widgets Selection</h2>
+            <div className="widgets-panels">
                 <div className="widget-one">
-                    <p>Random Widget Selection</p>
-                    {/* <HiddenSearch /> */}
+                    <HiddenSearch />
                 </div>
             </div>
         </div>

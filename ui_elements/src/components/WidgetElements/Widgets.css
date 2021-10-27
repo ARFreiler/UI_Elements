@@ -1,3 +1,4 @@
-.widgets p {
-    color: purple;
+.widgets-text {
+    background: rgb(12, 12, 12);
+    color: rgb(250, 186, 44);
 }

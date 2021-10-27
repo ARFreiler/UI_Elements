@@ -16,7 +16,7 @@ import './App.css';
 import Content from "./components/Content";
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import Navbar from './components/Navbar/Navbar';
+// import Navbar from './components/Navbar/Navbar';
 // import Widgets from './components/WidgetElements/Widgets';
 
 
@@ -25,7 +25,7 @@ function App() {
     return (
         <div className="App">
             <Header />
-            <Navbar />
+            {/* <Navbar /> */}
             <Content />
 
             <Footer />
