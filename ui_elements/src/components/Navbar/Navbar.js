@@ -32,10 +32,10 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                                 <Widgets />
                             </Route>,
           <Route exact path="/scenes/work-scene/work">
-                                {/* <Work /> */}
+                                {/* <Graphics /> */}
                             </Route>,
           <Route exact path="/scenes/contact-scene/contact">
-                                {/* <Contact /> */}
+                                {/* <Components /> */}
                             </Route>
 
                         </Switch>

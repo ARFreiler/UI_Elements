@@ -9,9 +9,9 @@ export const StyledLink = styled(NavLink)`
   background: rgb(12, 12, 12);
   color: rgb(250, 186, 44);
   text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
   font-weight: 550;
-  border: 1px solid rgb(250, 186, 44);
+  border: 1.8px solid rgb(250, 186, 44);
   border-radius: 7.5px;
   
   
