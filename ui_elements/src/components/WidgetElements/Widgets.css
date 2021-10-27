@@ -34,6 +34,11 @@
     background-color: rgb(12, 12, 12);
     border: solid 2px rgb(250, 186, 44);
     border-radius: 7.5px;
+    box-shadow: 7px 8px 6px -6px black;
+}
+
+.widgets-panels {
+    box-shadow: 7px 8px 6px -6px black;
 }
 
 .widgets-panels {
