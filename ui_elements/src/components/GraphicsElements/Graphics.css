@@ -1,4 +1,4 @@
-.widgets-container {
+.graphics-container {
     min-height: 100vh;
     margin-top: 20px;
     background: white;
@@ -8,40 +8,28 @@
     border-top: 2px solid rgb(250, 186, 44);
 }
 
-.widgets-header {
+.graphics-header {
     font-size: 30px;
     margin-top: 20px;
     color: rgb(250, 186, 44);
     padding: 0px 25px;
 }
 
-.widget-icons {
+.graphics-icons {
     display: flex;
     justify-content: center;
 }
 
-.widget-icons-text {
+.graphics-icons-text {
     margin-left: 6px;
     line-height: 10px;
     color: white;
 }
 
-.widget-text-panel {
+.graphics-text-panel {
     margin: 30px;
     background-color: rgb(12, 12, 12);
     border: solid 2px rgb(250, 186, 44);
     border-radius: 7.5px;
     box-shadow: 7px 8px 6px -6px black;
-}
-
-.widgets-panels {
-    box-shadow: 7px 8px 6px -6px black;
-}
-
-.widgets-panels {
-    border: 2px solid rgb(250, 186, 44);
-    background: rgb(21, 21, 21);
-    border-radius: 7.5px;
-    height: 400px;
-    width: 80vw;
 }

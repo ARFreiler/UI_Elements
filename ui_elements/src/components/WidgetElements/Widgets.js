@@ -8,7 +8,7 @@ const Widgets = () => {
     return (
         <div className="widgets-container">
             <div className="widget-text-panel">
-                <h2 className="widgets-text">Widgets & More</h2>
+                <h2 className="widgets-header">Widgets & More</h2>
                 <div className="widget-icons">
                     <FaCogs size={30} /><p className="widget-icons-text">small and simple solutions</p>
                 </div>
