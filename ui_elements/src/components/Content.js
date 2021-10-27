@@ -5,8 +5,8 @@
 // import Header from './Header/Header';
 // import Footer from './Footer/Footer';
 // import UiElements from './UiElements/UiElements';
-// import Homepage from './Homepage/Homepage';
-// import Widgets from './WidgetElements/Widgets';
+import Homepage from './Homepage/Homepage';
+import Widgets from './WidgetElements/Widgets';
 // import Images from './ImageElements/Images';
 
 import './Content.css';
@@ -14,8 +14,8 @@ import './Content.css';
 const Content = () => {
     return (
         <div className="content-content">
-
-            {/* <Widgets /> */}
+            <Homepage />
+            <Widgets />
         </div>
         // <Switch>
         //     <Route exact path='/' component={Homepage}></Route>

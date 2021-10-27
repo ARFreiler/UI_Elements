@@ -1,4 +1,21 @@
 .homepage {
     min-height: 100vh;
-    background-color: rgb(251, 251, 209)
+    border-top: 2px solid rgb(250, 186, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-panel {
+    background: rgb(12, 12, 12);
+    height: 500px;
+    width: 80vw;
+    border: solid 2px rgb(250, 186, 44);
+    border-radius: 7.5px;
+    box-shadow: 7px 8px 6px -6px black;
+    ;
+}
+
+.homepage-text {
+    color: white;
 }

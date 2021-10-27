@@ -1,5 +1,6 @@
 import React from 'react';
 // import { Link } from "react-router-dom";
+import Homepage from '../Homepage/Homepage';
 
 import {
     BrowserRouter as Router,
@@ -16,7 +17,6 @@ const Navbar = ({ currentPage, handlePageChange }) => {
         <div className="navbar">
             <div class="topnav">
                 <div className="nav-content">
-                    {/* <h1>this is navbar</h1> */}
                     <Router>
                         <nav>
                             <StyledLink to="/scenes/home-scene/home">Home</StyledLink>
@@ -26,7 +26,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                         </nav>
                         <Switch>
                             <Route exact path="/scenes/home-scene/home">
-                                {/* <Home /> */}
+                                {/* <Homepage /> */}
                             </Route>,
           <Route exact path="/scenes/about-scene/about">
                                 <Widgets />
