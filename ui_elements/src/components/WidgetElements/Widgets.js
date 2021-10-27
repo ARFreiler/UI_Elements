@@ -1,5 +1,5 @@
 import React from 'react';
-// import HiddenSearch from '../HiddenSearch/HiddenSearch';
+import HiddenSearch from '../HiddenSearch/HiddenSearch';
 import { FaCogs } from "react-icons/fa"
 
 import './Widgets.css';
@@ -15,7 +15,7 @@ const Widgets = () => {
             </div>
             <div className="widgets-panels">
                 <div className="widget-one">
-                    {/* <HiddenSearch /> */}
+                    <HiddenSearch />
                 </div>
             </div>
         </div>

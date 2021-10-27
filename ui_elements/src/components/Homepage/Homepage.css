@@ -7,6 +7,9 @@
 }
 
 .homepage-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: rgb(12, 12, 12);
     height: 500px;
     width: 80vw;
@@ -18,4 +21,5 @@
 
 .homepage-text {
     color: white;
+    width: 70%;
 }

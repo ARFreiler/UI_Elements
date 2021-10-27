@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Link } from "react-router-dom";
-import Homepage from '../Homepage/Homepage';
+// import Homepage from '../Homepage/Homepage';
 
 import {
     BrowserRouter as Router,

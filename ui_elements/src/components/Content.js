@@ -5,7 +5,7 @@
 // import Header from './Header/Header';
 // import Footer from './Footer/Footer';
 // import UiElements from './UiElements/UiElements';
-import Homepage from './Homepage/Homepage';
+// import Homepage from './Homepage/Homepage';
 import Widgets from './WidgetElements/Widgets';
 // import Images from './ImageElements/Images';
 
@@ -14,7 +14,7 @@ import './Content.css';
 const Content = () => {
     return (
         <div className="content-content">
-            <Homepage />
+            {/* <Homepage /> */}
             <Widgets />
         </div>
         // <Switch>
