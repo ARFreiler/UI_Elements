@@ -1,5 +1,5 @@
 import React from 'react';
-// import HiddenSearch from './components/HiddenSearch/HiddenSearch';
+// import HiddenSearch from '../HiddenSearch/HiddenSearch';
 
 import './Widgets.css';
 
@@ -8,7 +8,7 @@ const Widgets = () => {
         <div className="container">
             <div className="widgets">
                 <div className="widget-one">
-                    <p>widgets</p>
+                    <p>Random Widget Selection</p>
                     {/* <HiddenSearch /> */}
                 </div>
             </div>

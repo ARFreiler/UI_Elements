@@ -1,5 +1,12 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+
+import {
+    BrowserRouter as Router,
+    Route,
+    Switch,
+} from "react-router-dom";
+import { StyledLink } from "../../styles";
 
 import '../Navbar/Navbar.css';
 
@@ -9,6 +16,29 @@ const Navbar = ({ currentPage, handlePageChange }) => {
             <div class="topnav">
                 <div className="nav-content">
                     <h1>this is navbar</h1>
+                    <Router>
+                        <nav>
+                            <StyledLink to="/scenes/home-scene/home">Home</StyledLink>
+                            <StyledLink to="/scenes/about-scene/about">About Me</StyledLink>
+                            <StyledLink to="/scenes/work/work">My Work</StyledLink>
+                            <StyledLink to="/scenes/contact-scene/contact">Contact</StyledLink>
+                        </nav>
+                        <Switch>
+                            <Route exact path="/scenes/home-scene/home">
+                                {/* <Home /> */}
+                            </Route>,
+          <Route exact path="/scenes/about-scene/about">
+                                {/* <About /> */}
+                            </Route>,
+          <Route exact path="/scenes/work-scene/work">
+                                {/* <Work /> */}
+                            </Route>,
+          <Route exact path="/scenes/contact-scene/contact">
+                                {/* <Contact /> */}
+                            </Route>
+
+                        </Switch>
+                    </Router>
                 </div>
                 {/* <a href="#widgets" onClick={() => handlePageChange('Widgets')} className={currentPage === 'Link1' ? 'nav-link active' : 'nav-link'}>Widgets</a>
                 <a href="" onClick={() => handlePageChange('')} className={currentPage === 'Link2' ? 'nav-link active' : 'nav-link'}>link 2</a>
