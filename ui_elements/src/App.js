@@ -13,7 +13,7 @@ import ReactDOM from 'react-dom';
 // import { BrowserRouter, Route, Link } from "react-router-dom";
 
 import './App.css';
-import Content from "./components/Content";
+// import Content from "./components/Content";
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 // import Navbar from './components/Navbar/Navbar';
@@ -26,7 +26,7 @@ function App() {
         <div className="App">
             <Header />
             {/* <Navbar /> */}
-            <Content />
+            {/* <Content /> */}
 
             <Footer />
         </div>

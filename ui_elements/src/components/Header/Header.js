@@ -4,12 +4,16 @@ import Navbar from '../Navbar/Navbar';
 
 const Header = () => {
     return (
-        <div className="container">
+        <div className="header-container">
 
             <div className="header">
-                <h1 className="title">UI Elements</h1>
-                <p className="tag">A collection of UI elements for webpage design.</p>
-                <Navbar />
+                <div className="header-text">
+                    <h1 className="title">UI Elements</h1>
+                    <p className="tag">A curio of components and features for webpage design.</p>
+                </div>
+                <div className="nav-component">
+                    <Navbar />
+                </div>
             </div>
             {/* <Navbar currentPage={currentPage} handlePageChange={handlePageChange} /> */}
         </div>

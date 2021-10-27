@@ -1,9 +1,20 @@
-.container {
+.header-container {
+    /* flex-direction: row; */
     /* text-align: center; */
     background: rgb(12, 12, 12);
     color: rgb(250, 186, 44);
 }
 
 .header {
+    /* display: flex; */
     padding: 15px 0;
 }
+
+.header-text {
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+/* .nav-component {
+    background: red;
+} */
