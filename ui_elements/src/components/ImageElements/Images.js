@@ -1,6 +1,7 @@
 import React from 'react';
 
-// import ExpandingCards from '../ExpandingCards/ExpandingCard';
+
+import ExpandingCard from '../ExpandingCards/ExpandingCard';
 import './Images.css';
 
 const Images = () => {
@@ -9,7 +10,7 @@ const Images = () => {
             <div className="images">
                 <div className="element-one">
                     <p>images</p>
-                    {/* <ExpandingCard /> */}
+                    <ExpandingCard />
 
                 </div>
             </div>

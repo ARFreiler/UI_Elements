@@ -9,6 +9,8 @@
 // export default App;
 
 import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 import './App.css';
 import Content from "./components/Content";
@@ -30,3 +32,5 @@ function App() {
 }
 
 export default App;
+
+ReactDOM.render(<App />, document.querySelector('#root'));

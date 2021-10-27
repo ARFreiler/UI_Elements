@@ -5,19 +5,22 @@ import { Switch, Route } from 'react-router-dom';
 // import Header from './Header/Header';
 // import Footer from './Footer/Footer';
 // import UiElements from './UiElements/UiElements';
-import Homepage from './pages/Homepage/Homepage';
-import Widgets from './pages/WidgetElements/Widgets';
-import Images from './pages/ImageElements/Images';
+import Homepage from './Homepage/Homepage';
+import Widgets from './WidgetElements/Widgets';
+import Images from './ImageElements/Images';
 
 import './Content.css';
 
 const Content = () => {
     return (
-        <Switch>
-            <Route exact path='/' component={Homepage}></Route>
-            <Route exact path='/widgets' component={Widgets}></Route>
-            <Route exact path='/images' component={Images}></Route>
-        </Switch>
+        <div className="content-content">
+            h1THIS IS CONTENT
+        </div>
+        // <Switch>
+        //     <Route exact path='/' component={Homepage}></Route>
+        //     <Route exact path='/widgets' component={Widgets}></Route>
+        //     <Route exact path='/images' component={Images}></Route>
+        // </Switch>
     );
 };
 
