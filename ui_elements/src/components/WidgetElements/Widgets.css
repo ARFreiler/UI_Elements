@@ -18,6 +18,7 @@
 .widget-icons {
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .widget-icons-text {

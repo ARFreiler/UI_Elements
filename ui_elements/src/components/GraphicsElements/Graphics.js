@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FaPalette } from "react-icons/fa";
+import { FaImages } from "react-icons/fa";
 
 
 // import ExpandingCard from '../ExpandingCards/ExpandingCard';
@@ -12,7 +12,7 @@ const Graphics = () => {
             <div className="graphics-text-panel">
                 <h2 className="graphics-header">Graphics & More</h2>
                 <div className="graphics-icons">
-                    <FaPalette siz={30} /> <p className="graphics-icons-text">small and simple solutions</p>
+                    <FaImages size={30} /> <p className="graphics-icons-text">small and simple solutions</p>
 
                 </div>
             </div>
