@@ -15,6 +15,11 @@
     /* flex-direction: column; */
 }
 
+.title {
+    font-size: 40px;
+    margin: 15px;
+}
+
 /* .nav-component {
-    background: red;
+    border-bottom: 2px solid rgb(250, 186, 44);
 } */
