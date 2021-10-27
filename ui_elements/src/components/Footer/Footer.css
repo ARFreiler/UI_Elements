@@ -8,6 +8,8 @@
     text-align: center;
     background: rgb(12, 12, 12);
     color: rgb(250, 186, 44);
+    border-top: 2px solid rgb(250, 186, 44);
+    margin-top: -15px;
 }
 
 .icons {
